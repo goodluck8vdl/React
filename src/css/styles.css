@@ -1,0 +1,108 @@
+/*========= Header ============*/
+.menu {
+	margin-top: 3%;
+	margin-left: 3%;
+}
+.logo {
+	margin: 1% 32% 1% 32%;
+}
+.icon {
+	margin-top: 3%;
+}
+/*========= App ==============*/
+.pic {
+	background-image: url('../img/catalog-newsletter-hero-1.png');
+	background-size: cover;
+	height:100%;
+	width: 100%;
+	text-align: center;
+	font-family: 'PT Serif', serif;
+}
+.overlay {
+	padding: 8%;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;    
+}
+/*=========== Newsletter ===========*/
+.newsletter {
+	width: 95%;
+	height: 80%;
+	padding: 5% 3% 10% 5%;
+	margin: 5%;
+	color: white;
+}
+.letters{
+	margin-left: 7%;
+	width: 85%;
+}
+.newsletter img{
+	width: 85%;
+}
+/*========== Subscribe ============*/
+.subscribe {
+	background-color: #f6f4f4;
+	text-align: center;
+	padding-top: 3%;
+}
+.subscribe p{
+	color: #656958;
+}
+button {
+    background-color: #fc1616;
+    cursor: pointer;
+    color: white;
+    width: 15%;
+}
+input[type=email] {
+    background-color: #D7DCCA;
+}
+.form-inline {
+    margin-left: 23%;
+    padding-bottom: 3%;
+}
+.form-group {
+    width: 53%;
+}
+.form-control {
+    width: 95% !important;
+}
+footer{
+	background-color: #121310;
+	padding-top: 10%;
+	color: white;
+}
+.footer-bottom-left{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 0.8em;
+}
+.footer-bottom-rights p{
+	display: inline;
+	font-size: 0.9em;
+	margin: 3%;
+}
+.footer-bottom-rights{
+	text-align: center;
+}
+
+
+@media (max-width: 1105px){
+	.menu {
+		margin-left: 8%;
+	}
+	.logo {
+		margin: 1% 23% 1% 23%;
+	}
+}
+@media only screen 
+    and (max-device-width: 640px), 
+    only screen and (max-device-width: 667px), 
+    only screen and (max-width: 480px) {
+    .menu {
+    	margin-left: 1%;
+    }
+	.logo {
+		margin: 1% 23% 1% 23%;
+	}
+}
+
